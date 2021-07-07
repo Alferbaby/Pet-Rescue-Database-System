@@ -1,0 +1,32 @@
+.nav {
+  position: absolute;
+  width: 255px;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  background: #363740;
+}
+
+.navfont {
+  font-family: "Mulish";
+  font-style: bold;
+  font-weight: bold;
+  font-size: 24px;
+
+  /* identical to box height */
+
+  letter-spacing: 0.2px;
+
+  /* accent / light */
+
+  color: #dde2ff;
+}
+
+.content {
+  position: absolute;
+  padding-left: 30px;
+  left: 255px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+}

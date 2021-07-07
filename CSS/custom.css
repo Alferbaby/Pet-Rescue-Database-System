@@ -1,0 +1,33 @@
+.jumbotron {
+  /* IE8 and below */
+  background: rgb(207, 198, 198);
+  /* all other browsers */
+  background: rgba(224, 182, 182, 0.5);
+}
+
+.btn-group {
+  background-color: rgb(207, 198, 198);
+  border: none;
+  color: white; /* White text */
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+.button:hover {
+  opacity: 1;
+}
+
+.btn-group button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: rgb(204, 100, 100);
+}
